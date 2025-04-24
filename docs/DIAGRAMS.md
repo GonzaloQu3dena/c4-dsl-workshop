@@ -6,5 +6,6 @@ Organized list of all DSL-based diagrams in this repository:
 [02-ticket-sales-system](/diagrams/context/02-ticket-sales-system.dsl)
 
 ## Container Diagrams
+[03-online-course-platform](/diagrams/container/03-online-course-platform.dls)
 
 ## Component Diagrams
