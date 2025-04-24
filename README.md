@@ -5,6 +5,9 @@
 This repository is dedicated to learning and practicing the C4 model for software architecture using Structurizr DSL. It is designed for educational purposes, allowing exploration from basic concepts to more advanced diagrams like context, containers, components, and even code-level views.
 </p>
 
+💡 **Want to explore the diagrams?**
+→ Check the full list in [📄 DIAGRAMS.md](docs/DIAGRAMS.md)
+
 ## What is the C4 Model?
 <div>
   <p align="justify">
