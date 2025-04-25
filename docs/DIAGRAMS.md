@@ -1,11 +1,37 @@
 # Diagrams Index
-Organized list of all DSL-based diagrams in this repository:
 
-## Context Diagrams
-[01-simple-library-system](/diagrams/context/01-simple-library-system.dsl)
-[02-ticket-sales-system](/diagrams/context/02-ticket-sales-system.dsl)
+<p align="justify">
+This document provides an organized index of all <b>DSL-based diagrams</b> available in this repository. Diagrams are grouped by type according to the <b>C4 Model</b> <b>Context</b>, <b>Container</b>, and <b>Component</b>. Each link points directly to its corresponding <i>.dsl</i> file.
+</p>
 
-## Container Diagrams
-[03-online-course-platform](/diagrams/container/03-online-course-platform.dls)
+## 🧭 Context Diagrams
 
-## Component Diagrams
+<p align="justify">
+High-level system overviews that illustrate how users and external systems interact with the main software systems.
+</p>
+
+- [01 - Simple Library System](/diagrams/context/01-simple-library-system.dsl)  
+  _Basic library system with customers and loan terminals._
+
+- [02 - Ticket Sales System](/diagrams/context/02-ticket-sales-system.dsl)  
+  _Ticketing platform with multiple sales channels and external partners._
+
+---
+
+## 🧱 Container Diagrams
+
+These diagrams break systems into major building blocks such as web applications, APIs, databases, and external services.
+
+- [03 - Online Course Platform](/diagrams/container/03-online-course-platform.dsl)  
+  _E-learning system composed of a backend, frontend, and integrated external tools._
+
+- [04 - Restaurant Reservation Platform](/diagrams/container/04-restaurant-reservation-platform.dsl)  
+  _Reservation system with a mobile app, internal and public APIs, a database, and an SMS service._
+
+---
+
+## 🧩 Component Diagrams
+
+<p>
+Detailed breakdowns of individual containers, showing internal components like services, controllers, and modules.
+</p>
