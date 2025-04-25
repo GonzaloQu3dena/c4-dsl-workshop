@@ -32,7 +32,7 @@ workspace "online-course-platform" {
         certifications = softwareSystem "External Certification System" {
             description "External certification system for courses."
             
-            this -> api_backend "Validate certification requests"
+            api_backend -> this "Validate certification requests"
         }
     }
 
