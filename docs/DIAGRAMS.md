@@ -41,3 +41,8 @@ Detailed breakdowns of individual containers, showing internal components like s
 
 - [06 - Reservation Backend](/diagrams/component/06-reservations-backend.dsl)  
   A component diagram representing the **API Backend** of the Reservation System. It includes components like `ReservationController`, `ReservationService`, `NotificationService`, and `ReservationRepository`, showing how they interact internally and with external systems such as the SMS Service and the Reservations Database.
+
+## 🏆 Complex System Models
+<p align="justify">
+This level of exercises requires modeling all three levels of the <b>C4 Model</b> (Context, Container, and Component) to provide a comprehensive view of more complex systems.
+</p>
