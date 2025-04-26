@@ -36,5 +36,8 @@ These diagrams break systems into major building blocks such as web applications
 Detailed breakdowns of individual containers, showing internal components like services, controllers, and modules.
 </p>
 
-- [05 - Course Platform Backend](/diagrams/component/05-course-platform-backend.dsl)
+- [05 - Course Platform Backend](/diagrams/component/05-course-backend.dsl)
   A component diagram showing the **API Backend** of the Online Course Platform, which includes key components such as `CourseController`, `CourseService`, and `CourseRepository`. These components handle HTTP requests, business logic, and data access for managing courses and assessments.
+
+- [06 - Reservation Backend](/diagrams/component/06-reservations-backend.dsl)  
+  A component diagram representing the **API Backend** of the Reservation System. It includes components like `ReservationController`, `ReservationService`, `NotificationService`, and `ReservationRepository`, showing how they interact internally and with external systems such as the SMS Service and the Reservations Database.

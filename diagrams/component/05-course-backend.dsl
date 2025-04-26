@@ -25,6 +25,13 @@ workspace "course-platform-backend" {
                 course_controller -> course_service "Delegates business logic"
                 course_service -> course_repository "Uses to access data"
             }
+            
+            courses_db = container "Courses Database" {
+                tags "database"
+                description "Stores courses data."
+                
+                course_repository -> this "Reads/Writes courses data"
+            }
         }
     }
     
@@ -51,6 +58,11 @@ workspace "course-platform-backend" {
                 shape Component
                 background #B5EAD7
                 color #000000
+            }
+            
+            element "database" {
+                shape Cylinder
+                background #FFDAC1
             }
         }
     }
