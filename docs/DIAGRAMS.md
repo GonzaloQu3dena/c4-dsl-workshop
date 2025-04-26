@@ -49,3 +49,6 @@ This level of exercises requires modeling all three levels of the <b>C4 Model</b
 
 - [07 - Medical Consultation Management System](/diagrams/advanced-diagrams/07-medical-consultation-management-system.dsl)
   A full C4 model that describes a medical appointment platform where patients can schedule appointments, access their history, and message doctors. The model includes a web frontend, a backend API with components like AppointmentController, AppointmentService, PatientRepository, and MessagingService, a patient database, and integration with an external messaging service.
+
+- [08 - Complaints and Support System of a Telecommunications Company](/diagrams/advanced-diagrams/08-complaints-and-support-system.dsl)
+  A full C4 model representing a system where customers can submit complaints and support requests, with internal handling by support agents through a management backend, automated ticket routing, and integration with customer databases and notification services.
