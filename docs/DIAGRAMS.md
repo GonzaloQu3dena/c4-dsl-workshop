@@ -46,3 +46,6 @@ Detailed breakdowns of individual containers, showing internal components like s
 <p align="justify">
 This level of exercises requires modeling all three levels of the <b>C4 Model</b> (Context, Container, and Component) to provide a comprehensive view of more complex systems.
 </p>
+
+- [07 - Medical Consultation Management System](/diagrams/advanced-diagrams/07-medical-consultation-management-system.dsl)
+  A full C4 model that describes a medical appointment platform where patients can schedule appointments, access their history, and message doctors. The model includes a web frontend, a backend API with components like AppointmentController, AppointmentService, PatientRepository, and MessagingService, a patient database, and integration with an external messaging service.
